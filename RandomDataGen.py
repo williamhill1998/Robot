@@ -8,7 +8,7 @@ Created on Thu Apr  5 17:08:15 2018
 from random import randint
 from time import sleep
 data_log_file = '/Users/Will/Documents/Robot/RandomData.txt' 
-with open(data_log_file,'a') as log:
+with open(data_log_file,'w') as log:
     while True:
         log.write('d')
         log.write(str(randint(0,100)))
@@ -16,6 +16,6 @@ with open(data_log_file,'a') as log:
         log.write(str(randint(0,100)))
         log.write('t')
         log.write(str(randint(0,100)))
-        sleep(1)
+        sleep(0.1)
     
 

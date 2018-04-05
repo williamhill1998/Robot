@@ -14,7 +14,7 @@ import matplotlib.animation as animation
 from matplotlib import style
 
 
-data_log_file = '' 
+data_log_file = '/Users/Will/Documents/Robot/RandomData.txt' 
 
 def follow(file):
     file.seek(0,2)  #goes to the end of the file
